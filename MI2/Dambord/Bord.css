@@ -1,0 +1,48 @@
+.dambord
+{
+    width           : 400px;
+    height          : 400px;
+    margin          : auto;
+    display         : block;
+    border-color    : coral;
+    border-width    : 50px;
+    border-style    : inherit;
+}
+
+
+
+/*----------- Aqua blokken ------------*/
+.damAqua
+{
+    margin          :0;
+    height          : 50px;
+    width           : 50px;
+    background-color: #00FFFF;
+    float           : left;
+}
+
+
+/*--------------- groene blokken --------------*/
+.damGroen
+{
+    margin          :0;
+    height          : 50px;
+    width           : 50px;
+    background-color: #7FFF00;
+    float           : left;
+}
+
+
+h1 {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    background-color: brown;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
