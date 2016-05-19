@@ -1,0 +1,28 @@
+body{
+
+    display: none;
+    background-color: beige;
+}
+
+div {
+    
+    text-align: center;
+}
+
+h1 {
+font-family: fantasy;
+font-size: 30px;
+text-decoration: underline;
+text-align: center;
+color:green;
+}
+
+#picture{
+    position: absolute;
+    top: 90%;
+    margin-left: 40%;
+    background-color: maroon;
+    color: yellow;
+    font-family: serif;
+    width: 30%;
+}

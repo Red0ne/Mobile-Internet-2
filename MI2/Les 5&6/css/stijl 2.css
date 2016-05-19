@@ -1,0 +1,43 @@
+body{
+background-color: skyblue;
+text-align:center;
+}
+
+h1 {
+font-family: fantasy;
+font-size: 30px;
+text-decoration: underline;
+text-align: center;
+color:white;
+}
+
+
+ul.fotolijst
+{
+list-style-type : none;
+padding:0;
+margin:0;
+text-align:center;}
+
+ul.fotolijst li
+{
+float:left;
+width:100px;
+margin: 0px 1px 0px 1px;}
+
+ul.fotolijst li img
+{		
+border: 2px solid #777;
+padding: 0px;
+border-radius: 5px;}
+
+#galerij{ text-align:center; }
+
+#frame
+{
+width: 939px;
+height: 625px;
+margin: 10px 0px 10px 0px;
+border: 3px solid #ccc;
+overflow:hidden;
+border-radius: 5px;}

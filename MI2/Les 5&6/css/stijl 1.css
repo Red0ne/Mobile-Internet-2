@@ -1,0 +1,40 @@
+body {
+    background-color: pink;
+    background-attachment: fixed;
+    
+}
+
+
+h1 {
+    
+    font-family: fantasy;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#klein{
+    position: absolute;
+    top: 50%;
+    margin-left: 50%;
+    background-color: aquamarine;
+    color: red;
+    font-family: monospace;
+    
+}
+
+#groot{
+    position: absolute;
+    top: 50%;
+    margin-left: 30%;
+    background-color: aquamarine;
+    color: red;
+    font-family: monospace;
+    
+}
+
+
+
+p{
+    font-family: cursive;
+    
+}
