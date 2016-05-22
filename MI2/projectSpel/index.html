@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="PGame" content="PGame">
+
+    <title>Project</title>
+
+    <link rel="stylesheet" href="css/stijl.css">
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/jquery-1.12.1.js"></script>
+    <script src="js/functie.js"></script>
+    
+  
+
+</head>
+
+<body>
+
+    <!-- ****************************** Startpagina ****************************** -->
+
+    <div id="start">
+        
+        <audio id="audioStart" loop><source src="Sounds/sndStart.mp3"></audio>
+        
+
+        <div id="menu">
+            
+            <img id="soundOn" src="img/soundOn.png" alt="soundOn">
+
+            <fieldset class="formulier" name="Doorsturen">
+                
+                <legend> MENU </legend>
+                
+                <audio id="audiobtnplay"><source src="Sounds/shotgun.mp3"></audio>
+                
+                <button id="btnplay" type="submit" value="play">        Play </button> <br><br>
+                <button id="btnscore" type="submit" value="topscore">   Highscore </button>
+                
+            </fieldset>
+
+        </div>
+    </div>
+
+
+ <!-- ****************************** Levelpagina ****************************** -->
+    
+     <div id="pageLevel">
+         
+         <audio id="audiolvl"><source src="Sounds/lvlsound.mp3"></audio>
+         
+         <p id="txtlvl"> CHOOSE YOUR LEVEL: </p>
+    
+        <div id="lvlBouton">
+    
+        <button id="lvl1" type="submit" value="lvl1">Level 1</button>
+            <br> 
+        <button id="lvl2" type="submit" value="lvl2">Level 2</button>
+             <br> 
+        <button id="lvl3" type="submit" value="lvl3">Level 3</button>
+        
+        
+        </div>
+    
+    
+    
+    </div> 
+
+<!-- ****************************** AchtergrondSpel ****************************** -->
+
+    <div id="pageSpel">
+
+        <!-- BoxSpel -->
+        <div id="boxspel">
+        
+            <audio id="audioGood"><source src="Sounds/Good.mp3"></audio>
+            <audio id="audioBad"><source src="Sounds/Bad.mp3"></audio>
+        
+            <p id="feedback"></p>
+        
+            <div id="boxApp">
+                <p id="WilGet"> </p>
+            </div>
+
+            <div id="antwoord">
+                <p id="tijd"></p>
+                <p id="count"></p>
+                <p id="score"></p>
+                <input name="inputAnt" id="inputAnt" type="number" value="" required>
+                <button id="btnok"> check</button>
+            </div>
+        </div>
+  
+    </div>
+    
+    
+<!-- ****************************** GameOverpagina ****************************** -->
+    
+    
+    <div id="GoverPage">
+        
+        <div id="lose">
+        
+            <img id="imglose" src="img/decu.gif" alt="lose">
+            <p id="txtlose"> YOU LOSE ... </p>
+            <p id="txtscore"> </p>
+            
+            <audio id="fail"><source src="Sounds/gameOver.mp3"></audio>
+            <audio id="dab" loop><source src="Sounds/dab.mp3"></audio>
+                
+                <button id="btnNT" type="submit" value="btnNT"></button>
+                                            <br> 
+                <button id="exit" type="submit" value="exit" onclick="history.go(0)"> EXIT </button>
+            
+            
+        
+        </div>
+    
+    
+    </div>
+    
+    
+    
+
+
+
+
+</body>
+
+</html>

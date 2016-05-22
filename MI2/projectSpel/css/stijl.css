@@ -1,0 +1,597 @@
+body{margin: 0;}
+
+
+#start{
+    
+background-image: url(../img/einsten.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;    
+width: 100%;
+height: 100vh;
+    
+}
+
+@font-face {
+    
+    font-family: fontMath;
+    src:url("font.ttf");
+}
+
+@font-face {
+    
+    font-family: fontcijfer;
+    src:url("cijfer.ttf");
+}
+
+@font-face {
+    
+    font-family: fontfutur;
+    src:url("futur.otf");
+}
+
+@font-face {
+    
+    font-family: fontstart;
+    src:url("start.ttf");
+}
+
+
+
+#soundOn{
+    
+    width: 5%;
+    top: 0vh;
+    right: 0vh;
+    float: right;
+    position: fixed;
+    cursor: pointer;
+    
+}
+
+
+
+
+/* ------------------- fieldset -------------- */
+
+fieldset {
+    
+    float: right;
+    width: 40%;
+    margin-top: 20%;
+    margin-right: 5%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 0.25em;
+    border-color: #313951;
+}
+
+legend{
+    
+    font-family: fontstart;
+    color: beige;
+    font-size: 30px;
+    background-color: #313951;
+    padding: 0.3em 2em  0.3em  2em ;
+    border-radius: 1em;
+}
+
+#btnscore{
+    
+    color: #ffffff;
+    background: #696969;
+    font-size: 35px;
+    font-family: fontstart;
+    font-weight: bold;
+    border: 1px solid ;
+    border-radius: 15px;
+    padding: 15px 80px 15px 80px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+ 
+#btnscore:hover {
+    
+    color: white;
+    background: #09e6d4;
+    cursor: pointer;
+}
+
+#btnscore:focus {
+    
+    color: white;
+    background: #09e6d4;
+    
+}
+
+#btnplay{
+    
+    color: #ffffff;
+    background: #696969;
+    font-size: 40px;
+    font-family: fontstart;
+    font-weight: bold;
+    border: 1px solid ;
+    border-radius: 15px;
+    padding: 15px 160px 15px 160px;
+    text-align: center;
+    display: block;
+    margin: auto;
+  
+}
+ 
+#btnplay:hover {
+    
+    color: white;
+    background: #09e6d4;
+    cursor: pointer;
+}
+
+#btnplay:focus {
+    
+  color: white;
+  background: #09e6d4;
+}
+
+/* ------------------- PageLevel -------------- */
+
+#pageLevel{
+    
+    background-image        : url(../img/lvlbackground.jpg);
+    background-repeat       : no-repeat;
+    background-attachment   : fixed;
+    background-size         : cover;    
+    width                   : 100%;
+    height                  : 100vh;
+    position                : absolute;
+  
+}
+
+#txtlvl{
+    
+    font-family: fontstart;
+    color: beige;
+    font-size: 2.5em;
+    left: 30%;
+    position: absolute;
+}
+
+#lvlBouton{
+    
+    text-align: center;
+    margin-top: 50vh; 
+    transform: translateY(-50%);
+  
+}
+
+#lvl1 {
+   
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin : auto;
+    color: #ffffff;
+    background: #696969;
+    font-size: 250%;
+    font-family: fontstart;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 1% 1% 1% 1%;
+    
+}
+
+#lvl2, #lvl3 {
+    
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin : auto;
+    color: #ffffff;
+    background: #303030;
+    font-size: 250%;
+    font-family: fontstart;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 1% 1% 1% 1%;
+    
+}
+
+#lvl1:hover{
+    
+    color: white;
+    background: #09e6d4;
+    cursor: pointer;
+}
+
+#lvl2:hover, #lvl3:hover{
+    
+    color: white;
+    background: #303030;
+    
+}
+
+#lvl1:focus {
+    
+    color: white;
+    background: #09e6d4;
+}
+
+#lvl2:focus, #lvl3:focus{
+    
+    color: white;
+    background: #303030;
+    
+}
+
+
+/* ------------------- BOX MET WILGET -------------- */
+
+#WilGet
+{ 
+    color: rgba(48, 44, 42, 1);
+    font-size: 0;
+    line-height: 50%;
+    font-family: fontcijfer;
+    
+}
+
+
+#pageSpel{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    
+}
+
+        
+#boxspel{margin-top: 10em;
+  
+}  
+
+#boxApp{
+    
+    background-color: rgba(144, 68, 62, 0.9);
+    height:25vh;
+    width: 50%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 30px;
+    border-width: 10px;
+    border-style: double;
+    border-color: #FF6347;
+    color: #800000;
+
+     }
+
+/* ------------------- BOXANTWOORD -------------- */
+
+#antwoord{
+    
+    height:25vh;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;   
+}
+
+#tijd{
+    
+    margin-left: 1em;
+    float: left;
+    font-family: fontMath;
+    font-size: 30px;
+}
+
+#count{
+    
+    float:right;
+    margin-right: 1em;
+    font-family: fontMath;
+    font-size: 30px;
+    
+}
+
+#inputAnt{
+    
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 7em;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+#btnok{
+    
+    width: 50%;
+    height: 35%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #900;
+    background: #DAA520;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-family: fontfutur;
+    font-size: 40px;
+}
+
+#btnok:hover {
+    
+    color: #FFF;
+    background: #900;
+}
+
+#btnok:focus {
+    
+    color: #FFF;
+    background: #900;
+}
+
+
+
+#feedback
+{   
+    font-family: fontMath;
+    font-size: 400%;
+    position: absolute;
+    left: 68%;
+    bottom: 58%;
+    transform: rotate(37deg);
+    writing-mode: lr-tb;
+    
+}
+
+
+/* ------------------- GameOverPagina -------------- */
+
+#GoverPage{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/gameover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+      
+}
+
+#lose{
+    
+    text-align: center;
+    margin-top: 50vh; 
+    transform: translateY(-50%);
+}
+
+#imglose{
+    
+    width: 50vh;
+    border: 6px solid;
+    border-color: snow;
+    border-radius: 15px;
+}
+
+#txtlose{
+    font-family: fontMath;
+    font-size: 300%;
+    color: beige;
+}
+
+#txtscore{
+    
+    font-family: fontMath;
+    font-size: 300%;
+    color: beige;
+ 
+}
+
+
+
+#btnNT{
+    
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin : auto;
+    color: #ffffff;
+    background: #696969;
+    font-size: 150%;
+    font-family: fontstart;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 1% 1% 1% 1%;
+    
+    
+}
+
+#btnNT:hover{
+    
+    color: white;
+    background: #09e6d4;
+    cursor: pointer;
+}
+
+#exit{
+    
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin : auto;
+    color: #ffffff;
+    background: #696969;
+    font-size: 150%;
+    font-family: fontstart;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 1% 1% 1% 1%;
+}
+
+#exit:hover{
+    
+    color: white;
+    background: #09e6d4;
+    cursor: pointer;
+}
+
+
+/* ------------------- Jquery -------------- */
+
+
+@media only screen and (max-width: 700px)
+{
+    
+    #start{
+        background-image: url(../img/mobile.jpg); 
+        width: 100vw;
+        height: 100vh;
+    }   
+    
+    
+    #soundOn{
+        
+        width: 20%;
+        top: 5vh;
+        right: 2vh;
+        float: none;
+    }
+    
+    
+    fieldset {
+        
+        width: 90%;
+        top: 50vh;
+        margin: 0 auto;
+        display: block;
+        text-align: left;
+        vertical-align: middle;
+        position: absolute;
+        float:  none;
+        transform: translateY(-50%);
+     
+    }
+
+    legend{
+    
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    
+    #btnscore{
+        font-size: 160%;
+        margin: auto;
+        padding: 5% 10% 5% 10%;
+        text-align: center;
+    }
+ 
+    #btnplay{
+    
+        font-size: 180%;
+        margin: auto;
+        padding: 5% 30% 5% 30%;
+        text-align: center;
+    }
+    
+    #lvlBouton{
+        
+        margin-top: 70vh; 
+        transform: translateY(-50%);
+  
+    }
+
+    #lvl1 {
+   
+        width: 50vw;
+        font-size: 200%;
+        padding: 1.5% 1.5% 1.5% 1.5%;
+    
+    }
+
+    #lvl2, #lvl3 {
+    
+    width: 50vw;
+    font-size: 200%;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    
+    }
+    
+    
+    #boxApp{
+        
+        width: 90vw;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #antwoord{
+    
+        height: 40vh;
+        width: 80vw;
+        margin: auto;   
+    }
+
+    #tijd{ margin-left: 0.5em; }
+
+    #count{ margin-right: 0.5em; }
+
+    #inputAnt{
+    
+        width: 80vw;
+        height: 5vh;
+    }
+
+    #btnok{
+    
+        width: 80vw;
+        height: 10vh;
+    }
+
+
+    #feedback
+    {   
+        font-size: 300%;
+        left: 72c%;
+        bottom: 58%;
+    }
+    
+    
+    #txtlose{ font-size: 250%;}
+
+    #txtscore{ font-size: 250%;}
+
+
+
+    #btnNT{
+    
+        width: 60vw;
+        font-size: 150%;
+        padding: 1.5% 1.5% 1.5% 1.5%;
+    }
+
+
+
+    #exit{
+    
+        width: 60vw;
+        font-size: 150%;
+        padding: 1.5% 1.5% 1.5% 1.5%;
+    }
+
+   
+ 
