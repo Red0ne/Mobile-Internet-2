@@ -1,0 +1,58 @@
+/*  Dit is voor body  */
+
+
+body {background-image: url(img/back.jpg); 
+      background-attachment: fixed;
+      background-size: cover; 
+      text-align: center;}
+
+/* Dit is voor h1 */
+
+h1 {
+    text-align: center;
+    font-family: cursive, sans-serif;
+    font-size: 250%;
+    color: #FFD700;
+  }
+
+
+
+/* Dit is voor a */
+
+
+a      {text-decoration: inherit;
+        color: #00FFFF;
+        font-family: sans-serif;
+        }
+
+
+
+
+/* Dit is voor tabel */
+
+
+.Tabelindex{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50%;
+    }
+
+.opdr {
+    font-family: monospace;
+    font-size: 200%;
+    background: #000000;
+    color: #FFE4C4;
+}
+
+
+.website {
+    background: rgba(106, 69, 52, 0.7);
+    font-family: sans-serif;
+    font-size: 150%;
+    color: #FFFF00;
+}
+
+.spel{
+    text-align: center;
+}
+      
